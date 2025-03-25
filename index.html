@@ -4,21 +4,20 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CodeMaster Dev</title>
+  <title>CodeMaster Dev - Portfólio de Miguel Mernick</title>
   <!-- Favicon -->
-  <link rel="icon" type="image/x-icon" href="./img/principal.jpg">
+  <link rel="icon" type="image/x-icon" href="./img/principal.jpg" alt="Ícone CodeMaster Dev">
   <!-- Estilos -->
   <link rel="stylesheet" href="style.css">
-    <!-- Estilos importados-->
+  <!-- Estilos importados-->
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   <!-- Fontes personalizadas -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;700;900&family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
   <!-- Meta tag para descrição do site -->
-  <meta name="description" content="Meu Portfólio - CodeMaster Dev">
+  <meta name="description" content="Portfólio de Miguel Mernick, Desenvolvedor Web Full-stack, com projetos inovadores em diversas tecnologias.">
 </head>
 <body>
   <!-- Navegação -->
-
   <nav>
     <ul class="navlist">
       <li class="active"><a href="#home">Início</a></li>
@@ -31,33 +30,32 @@
     <div>
       <ul class="social-network">
         <li>
-          <div id="switch" onclick="toggleMode()">
+          <div id="switch" onclick="toggleMode()" role="button" aria-label="Alternar tema">
             <button></button>
             <span></span>
           </div>
         </li>
         <li>
-          <a href="https://linkedin.com" target="_blank">
+          <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
             <figure id="fig1"></figure>
           </a>
         </li>
         <li>
-          <a href="https://github.com/GustavoRSenai" target="_blank">
+          <a href="https://github.com/Miguel-Mernick" target="_blank" aria-label="GitHub">
             <figure id="fig2"></figure>
           </a>
         </li>
       </ul>
     </div>
 
-
     <!-- ícone do menu mobile -->
-     <div class="bx bx-menu" id="menu-icon"></div>
+    <div class="bx bx-menu" id="menu-icon" aria-label="Abrir menu"></div>
   </nav>
-  
+
   <!-- Conteúdo principal -->
   <main>
     <!-- Seção Home -->
-     <section id="home" class="home">
+    <section id="home" class="home">
       <div class="home-presentation">
         <p class="my-name">Meu nome é</p>
         <h1 id="name">MERNICK</h1>
@@ -68,31 +66,25 @@
           <a href="#contact" class="contact-button">Contato</a>
         </div>
       </div>
-      <img src="img/principal.jpg" alt="laptop" class="home-mac">
-     </section>
-    
+      <img src="img/principal.jpg" alt="Foto de Miguel com laptop" class="home-mac">
+    </section>
+
     <!-- Seção Sobre Mim -->
-     <section class="about" id="about">
+    <section class="about" id="about">
       <div class="about-img">
-        <img src="img/eu.jpg" alt="">
+        <img src="img/eu.jpg" alt="Miguel Mernick" class="about-photo">
       </div>
       <div class="about-text">
         <h2><span>SOBRE</span>MIM</h2>
         <p>
-          Tenho 18 anos e sou um desenvolvedor FUllstack apaixonado por criar soluções completas e eficientes.
-          Minhs jornada na programação começou com a curiosidade de aprender e buscar o funcionamento das aplicações web, desde a interface vista pelos usuários até os processos mais complexos do servidor.
-        </p>
-        <p>
-          Como Fullstack Developer, minha missão é construir sistemas que não apenas resolvem problemas, mas também entregam experiências incríveis aos usuários. Acredito que a verdadeira magia da programação está na capacidade de conectar pessoas, simplificar processos e transformar ideais em realidade.
-          Meu objetivo é criar soluções que otimizem o tempo das pessoas, automatizando tarefas repetitivas e trazendo eficiência para o dia a dia. 
+          Tenho 18 anos, estou cursando Técnico em Desenvolvimento de Sistemas no SENAI e também estudo no ensino médio no SESI.
         </p>
         <button class="button-cv">
-          <a href="assets/curriculo-front-end.pdf" download="CV - CodeMaster Dev" class="btn-cv"> Download CV</a>
+          <a href="assets/curriculo-front-end.pdf" download="CV_Miguel_Mernick" class="btn-cv">Download CV</a>
         </button>
       </div>
-      <img src="img/balls.svg" alt="balls" class="balls">
-     </section>
-  
+      <img src="img/balls.svg" alt="Ilustração de bolas" class="balls">
+    </section>
 
     <!-- Seção de habilidades -->
     <section class="skills" id="skills">
@@ -100,109 +92,111 @@
       <div class="tech">
         <h2>TECNOLOGIAS</h2>
         <div class="techs">
+          <!-- Cards de tecnologias -->
           <div class="card">
-            <img src="img/html-icon.svg" alt="ícone html">
+            <img src="img/html-icon.svg" alt="Ícone HTML">
             <p>HTML</p>
           </div>
           <div class="card">
-            <img src="img/css-icon.svg" alt="ícone css">
+            <img src="img/css-icon.svg" alt="Ícone CSS">
             <p>CSS</p>
           </div>
           <div class="card">
-            <img src="img/js-icon.svg" alt="ícone JavaScript">
+            <img src="img/js-icon.svg" alt="Ícone JavaScript">
             <p>JavaScript</p>
           </div>
           <div class="card">
-            <img src="img/react-js-icon.svg" alt="ícone react.js">
+            <img src="img/react-js-icon.svg" alt="Ícone React.js">
             <p>React.js</p>
           </div>
           <div class="card">
-            <img src="img/node-js-icon.svg" alt="ícone node.js">
+            <img src="img/node-js-icon.svg" alt="Ícone Node.js">
             <p>Node.js</p>
           </div>
           <div class="card">
-            <img src="img/python-icon.svg" alt="ícone python">
+            <img src="img/python-icon.svg" alt="Ícone Python">
             <p>Python</p>
           </div>
           <div class="card">
-            <img src="img/sql-icon.svg" alt="ícone sql">
+            <img src="img/sql-icon.svg" alt="Ícone SQL">
             <p>SQL</p>
           </div>
           <div class="card">
-            <img src="img/git-icon.svg" alt="ícone git">
+            <img src="img/git-icon.svg" alt="Ícone Git">
             <p>Git</p>
           </div>
         </div>
       </div>
+
       <div class="line"></div>
       <div class="tool">
         <h2>FERRAMENTAS</h2>
         <div class="tools">
+          <!-- Cards de ferramentas -->
           <div class="card">
-            <img src="img/github-icon.svg" alt="ícone github">
+            <img src="img/github-icon.svg" alt="Ícone GitHub">
             <p>GitHub</p>
           </div>
           <div class="card">
-            <img src="img/vs-code-icon.svg" alt="ícone vscode">
+            <img src="img/vs-code-icon.svg" alt="Ícone VSCode">
             <p>VSCode</p>
           </div>
           <div class="card">
-            <img src="img/figma-icon.svg" alt="ícone figma">
+            <img src="img/figma-icon.svg" alt="Ícone Figma">
             <p>Figma</p>
           </div>
           <div class="card">
-            <img src="img/notion-icon.svg" alt="ícone notion">
+            <img src="img/notion-icon.svg" alt="Ícone Notion">
             <p>Notion</p>
           </div>
         </div>
       </div>
     </section>
+
     <!-- Seção de Projetos -->
     <section id="projects" class="projects">
-      <div class="line">      </div>
+      <div class="line"></div>
       <div class="main-text">
         <h2>Meus <span>Projetos</span></h2>
       </div>
       <!-- Container do Carrossel -->
       <div class="carousel-container">
-        <!-- botões de navegação -->
+        <!-- Botões de navegação -->
         <button class="carousel-button prev" aria-label="Projeto anterior">&#10094;</button>
         <button class="carousel-button next" aria-label="Próximo projeto">&#10095;</button>
         <!-- Slides carrossel -->
         <div class="carrousel-slides">
-          <!-- Slide 1 - Login -->
           <div class="carousel-slide active">
             <div class="row">
-              <img src="img/login-land-rover.png" alt="print página de login">
+              <img src="img/login-land-rover.png" alt="Tela de login de site">
               <div class="layer">
                 <h5>Tela de login</h5>
-                <p>Esse repositório e uma atualização/melhoria do repositório anterior "formulário-login". Nele utilizon apenas HTML e CSS.</p>
+                <p>Atualização do repositório anterior para melhoria de design e usabilidade.</p>
               </div>
             </div>
           </div>
-          <!-- Slide 2 - Cronometro -->
           <div class="carousel-slide">
             <div class="row">
-              <img src="img/cronometro.png" alt="print cronometro">
+              <img src="img/cronometro.png" alt="Print do cronômetro digital">
               <div class="layer">
                 <h5>Relógio Digital</h5>
-                <p>Desenvolvido um relógio digital utilizado HTML, CSS e JS.</p>
+                <p>Desenvolvimento de um relógio digital com HTML, CSS e JavaScript.</p>
               </div>
             </div>
           </div>
-          <!-- Slide 3 - Formulário -->
           <div class="carousel-slide">
             <div class="row">
-              <img src="img/form.png" alt="print página form">
+              <img src="img/form.png" alt="Formulário de avaliação">
               <div class="layer">
-                <h5>Formulário de avaliação</h5>
-                <p>Desenvolvido formulário de avaliação da mentoria.</p>
+                <h5>Formulário de Avaliação</h5>
+                <p>Formulário de avaliação utilizado para feedback de mentorias.</p>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
+
     <!-- Seção de Contato -->
     <section class="contact" id="contact">
       <div class="contact-text">
@@ -211,16 +205,14 @@
         </div>
       </div>
       <div class="contact-form">
-        <!-- Serviço gratuito (formsubmit) que envia os dados para o e-mail descrito abaixo -->
         <form id="contactForm" action="https://formsubmit.co/rguustavo61@gmail.com" method="POST">
-          <input type="text" name="name" placeholder="Digite se nome" required>
-          <input type="email" name="email" placeholder="Digite seu melhor e-mail" required>
+          <input type="text" name="name" placeholder="Digite seu nome" required aria-label="Nome">
+          <input type="email" name="email" placeholder="Digite seu melhor e-mail" required aria-label="Email">
           <input type="hidden" name="_captcha" value="false">
-          <textarea name="text" type="text" cols="35" rows="10" placeholder="Como eu posso te ajudar?" id="" required></textarea>
+          <textarea name="text" cols="35" rows="10" placeholder="Como posso te ajudar?" required aria-label="Mensagem"></textarea>
           <br>
           <input type="submit" value="Enviar" class="submit" required>
         </form>
-        <!-- Mensagem de agradecimento (ápos enviar formulário) -->
         <div id="thankYouMessage" class="thank-you-message">
           Obrigado! Aguarde nosso retorno!
         </div>
@@ -231,16 +223,14 @@
   <!-- Rodapé -->
   <section class="end">
     <div class="last-text">
-      <p>By Miguel Mernick <img src="img/bussola.svg" alt="">Alguns direitos reservados.</p>
+      <p>By Miguel Mernick <img src="img/bussola.svg" alt="Ícone de bússola">Alguns direitos reservados.</p>
     </div>
 
     <div class="top">
-      <!-- Seta adicionada do serviço: boxicons -->
-      <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+      <a href="#home" aria-label="Voltar ao topo"><i class="bx bx-up-arrow-alt"></i></a>
     </div>
-
   </section>
-  
+
   <!-- Scripts -->
   <script src="script.js"></script>
 </body>
